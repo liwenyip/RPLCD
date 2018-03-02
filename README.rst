@@ -52,6 +52,10 @@ If you want to use I2C, you also need smbus::
 
     $ sudo apt install python-smbus
 
+Or if running on Python 3.x::
+
+    $ sudo apt install python3-smbus
+
 You can also install the library manually without pip. Either just copy the
 scripts to your working directory and import them, or download the repository
 and run ``python setup.py install`` to install it into your Python package
